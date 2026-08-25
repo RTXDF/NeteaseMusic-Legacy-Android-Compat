@@ -1,0 +1,49 @@
+# Credentials and session material
+ncm_qr_result.json
+ncm_code.txt
+*cookie*
+*cookies*
+*token*
+*.har
+*.flow
+*.mitm
+.mitmproxy/
+secrets/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+config/config.json
+!config/config.example.json
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+
+# Python and Node tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+
+# Certificates and private keys
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+
+# Archives, backups, and OS/editor files
+*.zip
+*.tar
+*.tar.gz
+*.bak
+*.backup
+.DS_Store
+.idea/
+.vscode/
